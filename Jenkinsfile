@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo 'Testing code...'
                 sh 'chmod +x test_script.sh'
-                sh './test_scrip.sh'
+                sh './test_script.sh'
             }
         }
 
